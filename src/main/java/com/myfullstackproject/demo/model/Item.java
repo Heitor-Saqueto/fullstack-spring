@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Item {
-	
 	@Id //PK
 	@GeneratedValue(strategy=GenerationType.IDENTITY) // db generate id
 	private Long id;
